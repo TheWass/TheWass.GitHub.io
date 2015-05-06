@@ -1,12 +1,14 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Werds of The Wass
 locale:           en_US
 url:              
 
 
 # Jekyll configuration
 
+safe: true
+host: 0.0.0.0
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
@@ -26,9 +28,9 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: The Wass
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "The more you know..."
   email: 
   disqus-shortname: 
   twitter: #username
@@ -57,4 +59,24 @@ owner:
   flickr: #username
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude:
+  - "lib"
+  - "config.rb"
+  - "Capfile"
+  - "config"
+  - "log"
+  - "Rakefile"
+  - "Rakefile.rb"
+  - "tmp"
+  - "less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - "test"
+  - "spec"
+  - "Gruntfile.js"
+  - "package.json"
+  - "node_modules"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE"
+  - "README.md"
