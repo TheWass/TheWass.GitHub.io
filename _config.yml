@@ -25,15 +25,24 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
+# Page Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+
 
 # Site owner
 owner:
   name: The Wass
   avatar: bio-photo.jpg
   bio: "The more you know..."
-  email: 
-  disqus-shortname: 
-  twitter: #username
+  email: lord.d35ruct0@gmail.com
+  disqus-shortname: werdsofthewass
+  twitter: TheWass
   facebook: #username
   google:
     plus: #username
@@ -42,7 +51,7 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
+  github: TheWass
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   xing: #username
@@ -60,22 +69,6 @@ owner:
 
 include: [".htaccess"]
 exclude:
-  - "lib"
-  - "config.rb"
-  - "Capfile"
-  - "config"
-  - "log"
-  - "Rakefile"
-  - "Rakefile.rb"
-  - "tmp"
-  - "less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - "test"
-  - "spec"
-  - "Gruntfile.js"
-  - "package.json"
-  - "node_modules"
   - "Gemfile"
   - "Gemfile.lock"
   - "LICENSE"
