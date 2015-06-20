@@ -139,4 +139,4 @@ It might be good enough for the non-technical people, but _it is insufficient fo
 It is difficult to convert a written specification directly into code.
 Formalisms are required to convert this qualitative description to a quantitative,
 verifiable, and provable model. Yes, it can be done. But there are a few intermediary steps
-before we can get there. [Stay tuned!](({% post_url 2014-10-17-semi-formal-diagrams %})
+before we can get there. [Stay tuned!]({% post_url 2014-10-17-semi-formal-diagrams %})
