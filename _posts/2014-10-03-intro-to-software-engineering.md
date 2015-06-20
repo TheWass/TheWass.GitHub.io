@@ -71,4 +71,4 @@ There are four stages to manage software complexity:
     - Software verification
 
 In the next couple of posts, I will be covering the second stage, requirements engineering. 
-[Stay tuned!](({% post_url 2014-10-08-requirements-engineering %})
+[Stay tuned!]({% post_url 2014-10-08-requirements-engineering %})
